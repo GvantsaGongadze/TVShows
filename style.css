@@ -1,3 +1,4 @@
+
 body {
     background-color: rgb(255, 192, 203);
 }
@@ -30,7 +31,7 @@ h1 {
     overflow: hidden;
 }
 .videoStyle {
-    width: 1300px;
+    width: 1600px;
     height: 900px;
     object-fit: fill;
 }
@@ -43,7 +44,7 @@ h1 {
     left:0;
     z-index:1;
 }
-.image-wraper{
+.image-wrapper{
     width: 100%;   
 }
 .row {
@@ -65,6 +66,9 @@ h5 {
 }
 div img {
     border: solid black 5px;
+}
+.header {
+    z-index: 2;
 }
 
 
