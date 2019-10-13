@@ -1,0 +1,74 @@
+body {
+    background-color: rgb(255, 192, 203);
+}
+#logo {
+    font-family: 'Dancing Script', cursive;
+    font-size: 30px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: rgb(255, 192, 203)
+}
+a {
+    color: white;
+}
+a:hover, h1:hover {
+    color: rgb(255, 192, 203);
+}
+h1 {
+    color: whitesmoke;
+    margin-top: 125px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: 'Libre Baskerville', serif;
+}
+.videoSize {
+    z-index: -100;
+    top:0;
+    left:0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+.videoStyle {
+    width: 1300px;
+    height: 900px;
+    object-fit: fill;
+}
+.horizontalLine{
+    padding-left: 3%;
+}
+.overlay {
+    position:absolute;
+    top:0;
+    left:0;
+    z-index:1;
+}
+.image-wraper{
+    width: 100%;   
+}
+.row {
+    margin-top: 60px;
+}
+h3{
+    font-family: 'Libre Baskerville', serif;
+    margin-top: 50px;
+    padding-bottom: 15px;
+    border-bottom: solid black 1px;
+}
+h5 {
+    display: inline;
+    font-family: 'Libre Baskerville', serif;
+}
+.rating {
+    float: right;
+    font-size: 15px;
+}
+div img {
+    border: solid black 5px;
+}
+
+
+
+
+
+
