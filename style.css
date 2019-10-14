@@ -71,6 +71,13 @@ div img {
     z-index: 2;
 }
 
+.card  {
+    background-color: rgb(255, 213, 220);
+
+    font-family: 'Libre Baskerville', serif;
+    width: 100%;
+}
+
 
 
 
