@@ -9,128 +9,192 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header class="overlay horizontalLine header">
+    <header class="overlay horizontalLine header position-fixed">
         <nav class="navbar navbar-expand-lg">
             <a id="logo" class="navbar-brand" href="#">TV Shows</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="collapse navbar-collapse w-100 id="navbarNavAltMarkup">
                 <div class="navbar-nav">
                     <a class="nav-item nav-link" href="#">Home</a>
                     <a class="nav-item nav-link" href="#">Recently Released</a>
                 </div>
             </div>
         </nav>
+        <div class="animation overlay">
+            <img class="flower"src="./img/Flowerit_5_Pink.png" alt="flower">
+        </div>
     </header>  
 
     <section class="videoSize">
-        <video class="videoStyle" autoplay controls muted>
+        <video class="videoStyle" autoplay muted controls>
             <source src="./videos/thePolitician.mp4" type="video/mp4">
         </video>
     </section>
-
     <section>
-        <div class="horizontalLine overlay ">
+        <div class="horizontalLine overlay">
             <h1>The politicians</h1>
         </div>
     </section>
-
     <section>
         <h3 class="horizontalLine">Trending Now</h3>
         <div class="container-fluid ">
             <div class="row">
-                <div class="col-3">
-                    <h5>The Politician</h5>
-                    <h5 class="rating">Rating: 7.6</h5>
-                    <img  class="image-wrapper" src="./img/the-politician.jpg" alt="The Politician">
+                <div class="col-lg-3 col-md-6">
+                    <div class="relative">
+                        <img  class="image-wrapper" src="./img/the-politician.jpg" alt="The Politician">
+                        <div class="absolute">
+                            <h5>The Politician</h5>
+                            <h5 class="rating">Rating: 7.6</h5>  
+                        </div>
+                    </div>
                 </div>
-                <div class="col-3">
-                    <h5>Unbelievable</h5>
-                    <h5 class="rating">Rating: 8.6</h5>
-                    <img  class="image-wrapper" src="./img/AAAABRLArY0XRCqZWwrzVvvNJB4GG_9hmRiJm2oysMTQ69vSC7zfWcu_1lNki0LCkrNHu8Es2vrh3mAPh1IIrq2_Wbd8s83_.jpg" alt="Unbelievable">
+                <div class="col-lg-3 col-md-6">
+                        <div class="relative">
+                            <img  class="image-wrapper" src="./img/AAAABRLArY0XRCqZWwrzVvvNJB4GG_9hmRiJm2oysMTQ69vSC7zfWcu_1lNki0LCkrNHu8Es2vrh3mAPh1IIrq2_Wbd8s83_.jpg" alt="Unbelievable">                                
+                            <div class="absolute">
+                                <h5>Unbelievable</h5>
+                                <h5 class="rating">Rating: 8.6</h5>
+                            </div>
+                        </div>    
                 </div>
-                <div class="col-3">
-                    <h5>The Boys</h5>
-                    <h5 class="rating">Rating: 8.8</h5>
-                    <img  class="image-wrapper" src="./img/amazon-the-boys-series-cast.jpg" alt="The Boys">
+                <div class="col-lg-3 col-md-6">
+                        <div class="relative">
+                            <img  class="image-wrapper" src="./img/amazon-the-boys-series-cast.jpg" alt="The Boys">
+                            <div class="absolute">
+                                <h5>The Boys</h5>
+                                <h5 class="rating">Rating: 8.8</h5>
+                            </div>
+                        </div>
                 </div>
-                <div class="col-3">
-                    <h5>Carnival Row</h5>
-                    <h5 class="rating">Rating: 8.0</h5>
-                    <img  class="image-wrapper" src="./img/amazon_studios-crny_s1-full-image_gallerybackground-en-us-1558475729115._ri_.jpg" alt="Carnival Row">
+                <div class="col-lg-3 col-md-6">
+                    <div class="relative">
+                        <img  class="image-wrapper" src="./img/amazon_studios-crny_s1-full-image_gallerybackground-en-us-1558475729115._ri_.jpg" alt="Carnival Row">                                
+                        <div class="absolute">
+                            <h5>Carnival Row</h5>
+                            <h5 class="rating">Rating: 8.0</h5>
+                        </div>
+                    </div>
                 </div>
             </div>
             <div class="row">
-                <div class="col-3">
-                    <h5>Fleabag</h5>
-                    <h5 class="rating">Rating: 8.7</h5>
-                    <img  class="image-wrapper" src="./img/ZW1209A_5cf0c615b3ce9_1280.jpg" alt="Fleabag">
+                <div class="col-lg-3 col-md-6">
+                        <div class="relative">
+                            <img  class="image-wrapper" src="./img/ZW1209A_5cf0c615b3ce9_1280.jpg" alt="Fleabag">
+                            <div class="absolute">
+                                <h5>Fleabag</h5>
+                                <h5 class="rating">Rating: 8.7</h5>
+                            </div>
+                        </div>
                 </div>
-                <div class="col-3">
-                    <h5>Top Boy</h5>
-                    <h5 class="rating">Rating: 8.3</h5>
-                    <img  class="image-wrapper" src="./img/AAAABVqLF6lpFfgP4IQW5i6SCZJ0FkRxAs0J5jS1BIdc-T2LPoV_CF0u89jrsvY38Wuinp9WSSrJn7mGVMWeROdCwsBHEqu8.jpg" alt="Top Boy">
+                <div class="col-lg-3 col-md-6">
+                    <div class="relative">
+                        <img  class="image-wrapper" src="./img/AAAABVqLF6lpFfgP4IQW5i6SCZJ0FkRxAs0J5jS1BIdc-T2LPoV_CF0u89jrsvY38Wuinp9WSSrJn7mGVMWeROdCwsBHEqu8.jpg" alt="Top Boy">
+                        <div class="absolute">
+                            <h5>Top Boy</h5>
+                            <h5 class="rating">Rating: 8.3</h5>
+                        </div>
+                    </div>
                 </div>
-                <div class="col-3">
-                    <h5>Mindhunter</h5>
-                    <h5 class="rating">Rating: 8.6</h5>
-                    <img  class="image-wrapper" src="./img/mindhunter-geek-review-feature-img.jpg" alt="Mindhunter">
+                <div class="col-lg-3 col-md-6">
+                    <div class="relative">
+                        <img  class="image-wrapper" src="./img/mindhunter-geek-review-feature-img.jpg" alt="Mindhunter">
+                        <div class="absolute">
+                            <h5>Mindhunter</h5>
+                            <h5 class="rating">Rating: 8.6</h5>
+                        </div>
+                    </div>
                 </div>
-                <div class="col-3">
-                    <h5>Succession</h5>
-                    <h5 class="rating">Rating: 8.1</h5>
-                    <img  class="image-wrapper" src="./img/Succession-Breakouts-GQ-December-120118-01.jpg" alt="Succession">
+                <div class="col-lg-3 col-md-6">
+                    <div class="relative">
+                        <img  class="image-wrapper" src="./img/Succession-Breakouts-GQ-December-120118-01.jpg" alt="Succession">
+                        <div class="absolute">
+                            <h5>Succession</h5>
+                            <h5 class="rating">Rating: 8.1</h5>
+                        </div>
+                    </div>  
                 </div>
             </div>
         </div>
     </section>
-
     <section>
         <h3 class="horizontalLine">Horror TV</h3>
         <div class="container-fluid">
             <div class="row">
-                <div class="col-3">
-                    <h5>Black Mirror</h5>
-                    <h5 class="rating">Rating: 8.8</h5>
-                    <img  class="image-wrapper" src="./img/black-mirror.jpg" alt="Black Mirror">
+                <div class="col-lg-3 col-md-6">
+                    <div class="relative">
+                        <img  class="image-wrapper" src="./img/black-mirror.jpg" alt="Black Mirror">
+                        <div class="absolute">
+                            <h5>Black Mirror</h5>
+                            <h5 class="rating">Rating: 8.8</h5>
+                        </div>
+                    </div>                  
                 </div>
-                <div class="col-3">
-                    <h5>Bates Motel</h5>
-                    <h5 class="rating">Rating: 8.2</h5>
-                    <img  class="image-wrapper" src="./img/tvn-14012019163149.jpg" alt="Bates Motel">
+                <div class="col-lg-3 col-md-6">
+                    <div class="relative">
+                        <img  class="image-wrapper" src="./img/tvn-14012019163149.jpg" alt="Bates Motel">
+                        <div class="absolute">
+                            <h5>Bates Motel</h5>
+                            <h5 class="rating">Rating: 8.2</h5>
+                        </div>
+                    </div>
                 </div>
-                <div class="col-3">
-                    <h5>Castle Rock</h5>
-                    <h5 class="rating">Rating: 7.7</h5>
-                    <img  class="image-wrapper" src="./img/7T2BU8EM63gewJUNXfGlOiPetH1.jpg" alt="Castle Rock">
+                <div class="col-lg-3 col-md-6">
+                    <div class="relative">
+                        <img  class="image-wrapper" src="./img/7T2BU8EM63gewJUNXfGlOiPetH1.jpg" alt="Castle Rock">
+                        <div class="absolute">
+                            <h5>Castle Rock</h5>
+                            <h5 class="rating">Rating: 7.7</h5>    
+                        </div>
+                    </div>                   
                 </div>
-                <div class="col-3">
-                    <h5>Channel Zero</h5>
-                    <h5 class="rating">Rating: 7.2</h5>
-                    <img  class="image-wrapper" src="./img/maxresdefault.jpg" alt="Channel Zero">
+                <div class="col-lg-3 col-md-6">
+                    <div class="relative">
+                        <img  class="image-wrapper" src="./img/maxresdefault.jpg" alt="Channel Zero">
+                        <div class="absolute">  
+                            <h5>Channel Zero</h5>
+                            <h5 class="rating">Rating: 7.2</h5>
+                        </div>
+                    </div>
                 </div>
             </div>
             <div class="row">
-                <div class="col-3">
-                    <h5>Dark</h5>
-                    <h5 class="rating">Rating: 8.7</h5>
-                    <img  class="image-wrapper" src="./img/AAAABSJBCX9UxJkkZH_NLhm0nynLxHTqy99ETHJuidWOohECj4qKD3kqC8kr4gk2anceRXPMLULS3hruYHK56hpZCSsWD1GqNO4GaWrot7bwzPHJqxfT.jpg" alt="Dark">
+                <div class="col-lg-3 col-md-6">
+                    <div class="relative">
+                        <img  class="image-wrapper" src="./img/AAAABSJBCX9UxJkkZH_NLhm0nynLxHTqy99ETHJuidWOohECj4qKD3kqC8kr4gk2anceRXPMLULS3hruYHK56hpZCSsWD1GqNO4GaWrot7bwzPHJqxfT.jpg" alt="Dark">
+                        <div class="absolute">  
+                            <h5>Dark</h5>
+                            <h5 class="rating">Rating: 8.7</h5>
+                        </div>
+                    </div>
                 </div>
-                <div class="col-3">
-                    <h5>The Exorcist</h5>
-                    <h5 class="rating">Rating: 8</h5>
-                    <img  class="image-wrapper" src="./img/MV5BYWVmMDA0YjUtY2U0Ni00ZTQwLTk0YmUtZGQwYmYzMmI3OWJlXkEyXkFqcGdeQXVyNzU1NzE3NTg@._V1_CR0,45,480,270_AL_UX477_CR0,0,477,268_AL_.jpg" alt="The Exorcist">
+                <div class="col-lg-3 col-md-6">
+                    <div class="relative">
+                        <img  class="image-wrapper" src="./img/MV5BYWVmMDA0YjUtY2U0Ni00ZTQwLTk0YmUtZGQwYmYzMmI3OWJlXkEyXkFqcGdeQXVyNzU1NzE3NTg@._V1_CR0,45,480,270_AL_UX477_CR0,0,477,268_AL_.jpg" alt="The Exorcist">
+                        <div class="absolute">  
+                            <h5>The Exorcist</h5>
+                            <h5 class="rating">Rating: 8</h5>
+                        </div>
+                    </div>                 
                 </div>
-                <div class="col-3">
-                    <h5>Hannibal</h5>
-                    <h5 class="rating">Rating: 8.5</h5>
-                    <img  class="image-wrapper" src="./img/dlnow_dp_hannibals03_060215.jpg" alt="Hannibal">
+                <div class="col-lg-3 col-md-6">
+                    <div class="relative">
+                        <img  class="image-wrapper" src="./img/dlnow_dp_hannibals03_060215.jpg" alt="Hannibal">
+                        <div class="absolute">  
+                            <h5>Hannibal</h5>
+                            <h5 class="rating">Rating: 8.5</h5>
+                        </div>
+                    </div>       
                 </div>
-                <div class="col-3">
-                    <h5>Penny Dreadful</h5>
-                    <h5 class="rating">Rating: 8.2</h5>
-                    <img  class="image-wrapper" src="./img/c4d12f4b-04b2-4950-9ae1-4e205a84339e-pennydreadful_309_1596r.jpg" alt="Penny Dreadful">
+                <div class="col-lg-3 col-md-6">
+                    <div class="relative">
+                        <img  class="image-wrapper" src="./img/c4d12f4b-04b2-4950-9ae1-4e205a84339e-pennydreadful_309_1596r.jpg" alt="Penny Dreadful">
+                        <div class="absolute">  
+                            <h5>Penny Dreadful</h5>
+                            <h5 class="rating">Rating: 8.2</h5>
+                        </div>
+                   </div>
                 </div>
             </div>
         </div>
@@ -139,12 +203,11 @@
     <footer>
         <div class="card">
             <div class="card-body">
-              <h5 class="card-title">To contact us</h5>
-              <a href="#" class="btn btn-outline-info btn-sm">click here</a>
+              <h5 class="card-title inline">To contact us</h5>
+              <a href="#" class="btn btn-outline-info btn-sm inline">click here</a>
             </div>
           </div>
     </footer>
-
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
