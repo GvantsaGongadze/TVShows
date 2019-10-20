@@ -4,31 +4,48 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TV Shows</title>
-    <link href="https://fonts.googleapis.com/css?family=Dancing+Script|Libre+Baskerville&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Dancing+Script&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Libre+Baskerville&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header class="overlay horizontalLine header position-fixed">
+    <header class="container-fluid overlay header position-fixed">
         <nav class="navbar navbar-expand-lg">
-            <a id="logo" class="navbar-brand" href="#">TV Shows</a>
+            <a id="logo" class="navbar-brand" href="#top">TV Shows</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse w-100 id="navbarNavAltMarkup">
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div class="navbar-nav">
-                    <a class="nav-item nav-link" href="#">Home</a>
-                    <a class="nav-item nav-link" href="#">Recently Released</a>
-                </div>
+                    <a class="nav-item nav-link" href="#top">Home</a>
+                    <div class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Genres
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item" href="#">Action</a>
+                            <a class="dropdown-item" href="#">Asian</a>
+                            <a class="dropdown-item" href="#">Comedies</a>
+                            <a class="dropdown-item" href="#">Crime</a>
+                            <a class="dropdown-item" href="#">Documentaries</a>
+                            <a class="dropdown-item" href="#">Dramas</a>
+                            <a class="dropdown-item" href="#horror">Horror</a>
+                            <a class="dropdown-item" href="#">Reality & Talk Shows</a>
+                            <a class="dropdown-item" href="#">Romantic</a>
+                            <a class="dropdown-item" href="#">Sci-Fi & Fantasy</a>
+                        </div>
+                    </div>
+                </div>   
             </div>
         </nav>
         <div class="animation overlay">
-            <img class="flower"src="./img/Flowerit_5_Pink.png" alt="flower">
+            <img class="flower" src="./img/Flowerit_5_Pink.png" alt="flower">
         </div>
     </header>  
 
     <section class="videoSize">
-        <video class="videoStyle" autoplay muted controls>
+        <video class="videoStyle" autoplay muted>
             <source src="./videos/thePolitician.mp4" type="video/mp4">
         </video>
     </section>
@@ -39,7 +56,7 @@
     </section>
     <section>
         <h3 class="horizontalLine">Trending Now</h3>
-        <div class="container-fluid ">
+        <div class="container-fluid">
             <div class="row">
                 <div class="col-lg-3 col-md-6">
                     <div class="relative">
@@ -119,12 +136,14 @@
         </div>
     </section>
     <section>
-        <h3 class="horizontalLine">Horror TV</h3>
+        <h3 id="horror" class="horizontalLine">Horror TV</h3>
         <div class="container-fluid">
             <div class="row">
                 <div class="col-lg-3 col-md-6">
                     <div class="relative">
-                        <img  class="image-wrapper" src="./img/black-mirror.jpg" alt="Black Mirror">
+                        <a href="page2.html#black-mirror">
+                            <img class="image-wrapper" src="./img/black-mirror.jpg" alt="Black Mirror">
+                        </a>
                         <div class="absolute">
                             <h5>Black Mirror</h5>
                             <h5 class="rating">Rating: 8.8</h5>
@@ -201,15 +220,30 @@
     </section>
 
     <footer>
-        <div class="card">
+        <div class="cardd-flex justify-content-between align-items-center">
             <div class="card-body">
-              <h5 class="card-title inline">To contact us</h5>
-              <a href="#" class="btn btn-outline-info btn-sm inline">click here</a>
-            </div>
-          </div>
+                <h5 class="card-title">Contact us on:</h5>
+                <ul class="social-ul d-flex">
+                    <li class="social-li">
+                        <i class="fab fa-facebook-f social-facebook"></i>
+                    </li>
+                    <li class="social-li">
+                        <i class="fab fa-instagram social-instagram"></i>
+                       </li>
+                    <li class="social-li">
+                        <i class="fab fa-twitter twitter-social"></i>
+                    </li>
+                    <li class="social-li">
+                        <i class="fab fa-google-plus-g google-social"></i>
+                    </li>
+                </ul>
+            </div>   
+        </div>
     </footer>
+
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/js/all.js"></script>
 </body>
 </html>
