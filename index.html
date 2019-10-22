@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TV Shows</title>
+    <link rel="stylesheet" href="./owl/OwlCarousel2-2.3.4/dist/assets/owl.carousel.css">
+    <link rel="stylesheet" href="./owl/OwlCarousel2-2.3.4/dist/assets/owl.carousel.min.css">    
     <link href="https://fonts.googleapis.com/css?family=Dancing+Script&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Libre+Baskerville&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
@@ -24,18 +26,15 @@
                             Genres
                         </a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                            <a class="dropdown-item" href="#">Action</a>
-                            <a class="dropdown-item" href="#">Asian</a>
-                            <a class="dropdown-item" href="#">Comedies</a>
-                            <a class="dropdown-item" href="#">Crime</a>
-                            <a class="dropdown-item" href="#">Documentaries</a>
-                            <a class="dropdown-item" href="#">Dramas</a>
+                            <a class="dropdown-item" href="#action">Action</a>
+                            <a class="dropdown-item" href="#comedy">Comedies</a>
+                            <a class="dropdown-item" href="#crime">Crime</a>
+                            <a class="dropdown-item" href="#documentaries">Documentaries</a>
                             <a class="dropdown-item" href="#horror">Horror</a>
-                            <a class="dropdown-item" href="#">Reality & Talk Shows</a>
-                            <a class="dropdown-item" href="#">Romantic</a>
-                            <a class="dropdown-item" href="#">Sci-Fi & Fantasy</a>
+                            <a class="dropdown-item" href="#fantasy">Sci-Fi & Fantasy</a>
                         </div>
                     </div>
+                    <a class="nav-item nav-link" href="#top">Sign Up</a>
                 </div>   
             </div>
         </nav>
@@ -47,178 +46,532 @@
     <section>
             <div class="videoSize">
                 <video class="videoStyle" autoplay muted>
-                    <source src="./videos/thePolitician.mp4" type="video/mp4">
+                    <source src="./videos/riverdale.mp4" type="video/mp4">
                 </video>
             </div>
             <div class="horizontalLine overlay">
-                <h1>The politicians</h1>
+                <h1>Riverdale</h1>
             </div>   
     </section>
     <section>
         <h3 class="horizontalLine">Trending Now</h3>
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-lg-3 col-md-6">
-                    <div class="relative">
-                        <img  class="image-wrapper" src="./img/the-politician.jpg" alt="The Politician">
-                        <div class="absolute">
-                            <h5>The Politician</h5>
-                            <h5 class="rating">Rating: 7.6</h5>  
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6">
-                        <div class="relative">
-                            <img  class="image-wrapper" src="./img/AAAABRLArY0XRCqZWwrzVvvNJB4GG_9hmRiJm2oysMTQ69vSC7zfWcu_1lNki0LCkrNHu8Es2vrh3mAPh1IIrq2_Wbd8s83_.jpg" alt="Unbelievable">                                
-                            <div class="absolute">
-                                <h5>Unbelievable</h5>
-                                <h5 class="rating">Rating: 8.6</h5>
-                            </div>
-                        </div>    
-                </div>
-                <div class="col-lg-3 col-md-6">
-                        <div class="relative">
-                            <img  class="image-wrapper" src="./img/amazon-the-boys-series-cast.jpg" alt="The Boys">
-                            <div class="absolute">
-                                <h5>The Boys</h5>
-                                <h5 class="rating">Rating: 8.8</h5>
-                            </div>
-                        </div>
-                </div>
-                <div class="col-lg-3 col-md-6">
-                    <div class="relative">
-                        <img  class="image-wrapper" src="./img/amazon_studios-crny_s1-full-image_gallerybackground-en-us-1558475729115._ri_.jpg" alt="Carnival Row">                                
-                        <div class="absolute">
-                            <h5>Carnival Row</h5>
-                            <h5 class="rating">Rating: 8.0</h5>
-                        </div>
-                    </div>
+        <div class="owl-carousel">
+            <div class="relative">
+                <img  class="image-wrapper" src="./img/the-politician.jpg" alt="The Politician">
+                <div class="absolute">
+                    <h5>The Politician</h5>
+                    <h5 class="rating">Rating: 7.6</h5>  
                 </div>
             </div>
-            <div class="row">
-                <div class="col-lg-3 col-md-6">
-                        <div class="relative">
-                            <img  class="image-wrapper" src="./img/ZW1209A_5cf0c615b3ce9_1280.jpg" alt="Fleabag">
-                            <div class="absolute">
-                                <h5>Fleabag</h5>
-                                <h5 class="rating">Rating: 8.7</h5>
-                            </div>
-                        </div>
+        <div class="relative">
+            <img  class="image-wrapper" src="./img/Unbelievabl.jpg" alt="Unbelievable">                                
+            <div class="absolute">
+                <h5>Unbelievable</h5>
+                <h5 class="rating">Rating: 8.6</h5>
+            </div>
+        </div>    
+            <div class="relative"> 
+                <a href="page2.html#the-boys">
+                    <img  class="image-wrapper" src="./img/the-boys.jpg" alt="The Boys">
+                </a>
+                <div class="absolute">
+                    <h5>The Boys</h5>
+                    <h5 class="rating">Rating: 8.8</h5>
                 </div>
-                <div class="col-lg-3 col-md-6">
-                    <div class="relative">
-                        <img  class="image-wrapper" src="./img/AAAABVqLF6lpFfgP4IQW5i6SCZJ0FkRxAs0J5jS1BIdc-T2LPoV_CF0u89jrsvY38Wuinp9WSSrJn7mGVMWeROdCwsBHEqu8.jpg" alt="Top Boy">
-                        <div class="absolute">
-                            <h5>Top Boy</h5>
-                            <h5 class="rating">Rating: 8.3</h5>
-                        </div>
-                    </div>
+            </div>
+            <div class="relative">
+                <img  class="image-wrapper" src="./img/amazon_studios-crny_s1-full-image_gallerybackground-en-us-1558475729115._ri_.jpg" alt="Carnival Row">                                
+                <div class="absolute">
+                    <h5>Carnival Row</h5>
+                    <h5 class="rating">Rating: 8.0</h5>
                 </div>
-                <div class="col-lg-3 col-md-6">
-                    <div class="relative">
-                        <img  class="image-wrapper" src="./img/mindhunter-geek-review-feature-img.jpg" alt="Mindhunter">
-                        <div class="absolute">
-                            <h5>Mindhunter</h5>
-                            <h5 class="rating">Rating: 8.6</h5>
-                        </div>
-                    </div>
+            </div>
+            <div class="relative">
+                <img  class="image-wrapper" src="./img/ZW1209A_5cf0c615b3ce9_1280.jpg" alt="Fleabag">
+                <div class="absolute">
+                    <h5>Fleabag</h5>
+                    <h5 class="rating">Rating: 8.7</h5>
                 </div>
-                <div class="col-lg-3 col-md-6">
-                    <div class="relative">
-                        <img  class="image-wrapper" src="./img/Succession-Breakouts-GQ-December-120118-01.jpg" alt="Succession">
-                        <div class="absolute">
-                            <h5>Succession</h5>
-                            <h5 class="rating">Rating: 8.1</h5>
-                        </div>
-                    </div>  
+            </div>
+            <div class="relative">
+                <img  class="image-wrapper" src="./img/AAAABVqLF6lpFfgP4IQW5i6SCZJ0FkRxAs0J5jS1BIdc-T2LPoV_CF0u89jrsvY38Wuinp9WSSrJn7mGVMWeROdCwsBHEqu8.jpg" alt="Top Boy">
+                <div class="absolute">
+                    <h5>Top Boy</h5>
+                    <h5 class="rating">Rating: 8.3</h5>
+                </div>
+            </div>
+            <div class="relative">
+                <img  class="image-wrapper" src="./img/mindhunter-geek-review-feature-img.jpg" alt="Mindhunter">
+                <div class="absolute">
+                    <h5>Mindhunter</h5>
+                    <h5 class="rating">Rating: 8.6</h5>
+                </div>
+            </div>
+            <div class="relative">
+                <img  class="image-wrapper" src="./img/Succession-Breakouts-GQ-December-120118-01.jpg" alt="Succession">
+                <div class="absolute">
+                    <h5>Succession</h5>
+                    <h5 class="rating">Rating: 8.1</h5>
+                </div>
+            </div>  
+        </div>
+    </section>
+    <section>
+        <h3 id="action" class="horizontalLine">Action</h3>
+        <div class="owl-carousel">
+            <div class="relative">
+                <a href="page2.html#vikings">
+                    <img class="image-wrapper" src="./img/vikings.jpg" alt="vikings">
+                </a>
+                <div class="absolute">
+                    <h5>Vikings</h5>
+                    <h5 class="rating">Rating: 8.8</h5>
+                </div>
+            </div>                  
+            <div class="relative">
+                <a href="page2.html#game-of-thrones">
+                    <img  class="image-wrapper" src="./img/Game-of-Thrones.jpg" alt="Game of Thrones">
+                </a>
+                <div class="absolute">
+                    <h5>Game of Thrones</h5>
+                    <h5 class="rating">Rating: 9.4</h5>
+                </div>
+            </div>
+            <div class="relative">
+                <a href="page2.html#the-boys">
+                    <img  class="image-wrapper" src="./img/the-boys.jpg" alt="The Boys">
+                </a>
+                <div class="absolute">
+                    <h5>The Boys</h5>
+                    <h5 class="rating">Rating: 8.8</h5>    
+                </div>
+            </div>
+            <div class="relative">
+                <a href="page2.html#money-heist">
+                    <img  class="image-wrapper" src="./img/Money-Heist.jpg" alt="Money Heist">
+                </a>
+                <div class="absolute">  
+                    <h5>Money Heist</h5>
+                    <h5 class="rating">Rating: 8.5</h5>
+                </div>
+            </div>
+            <div class="relative">
+                <a href="page2.html#gotham">
+                    <img  class="image-wrapper" src="./img/Gotham.jpg" alt="Gotham">
+                </a>
+                <div class="absolute">  
+                    <h5>Gotham</h5>
+                    <h5 class="rating">Rating: 7.8</h5>
+                </div>
+            </div>
+            <div class="relative">
+                <a href="page2.html#">
+                    <img  class="image-wrapper" src="./img/arrow.jpg" alt="Arrow">
+                </a>
+                <div class="absolute">  
+                    <h5>Arrow</h5>
+                    <h5 class="rating">Rating: 7.6</h5>
+                </div>
+            </div>                 
+            <div class="relative">
+                <a href="page2.html#">
+                    <img  class="image-wrapper" src="./img/titans.webp" alt="Titans">
+                </a>
+                <div class="absolute">  
+                    <h5>Titans</h5>
+                    <h5 class="rating">Rating: 7.9</h5>
+                </div>
+            </div>       
+            <div class="relative">
+                <a href="page2.html#">
+                    <img  class="image-wrapper" src="./img/chicago-pd.jpg" alt="Chicago P.D.">
+                </a>
+                <div class="absolute">  
+                    <h5>Chicago P.D.</h5>
+                    <h5 class="rating">Rating: 8.1</h5>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <h3 id="comedy" class="horizontalLine">Comedy</h3>
+        <div class="owl-carousel">
+            <div class="relative">
+                <a href="page2.html#">
+                    <img class="image-wrapper" src="./img/friends.jpg" alt="Friends">
+                </a>
+                <div class="absolute">
+                    <h5>Friends</h5>
+                    <h5 class="rating">Rating: 8.9</h5>
+                </div>
+            </div>                  
+            <div class="relative">
+                <a href="page2.html#">
+                    <img  class="image-wrapper" src="./img/This-Is-Us.jpg" alt="This Is Us">
+                </a>
+                <div class="absolute">
+                    <h5>This Is Us</h5>
+                    <h5 class="rating">Rating: 8.7</h5>    
+                </div>
+            </div>
+            <div class="relative">
+                <a href="page2.html#">
+                    <img  class="image-wrapper" src="./img/the-office.jpg" alt=" The Office">
+                </a>
+                <div class="absolute">  
+                    <h5> The Office</h5>
+                    <h5 class="rating">Rating: 8.8</h5>
+                </div>
+            </div>
+            <div class="relative">
+                <a href="page2.html#">
+                    <img  class="image-wrapper" src="./img/Big-Mouth.jpg" alt="Big Mouth ">
+                </a>
+                <div class="absolute">  
+                    <h5>Big Mouth </h5>
+                    <h5 class="rating">Rating: 8.0</h5>
+                </div>
+            </div>
+            <div class="relative">
+                <img  class="image-wrapper" src="./img/the-politician.jpg" alt="The Politician">
+                <div class="absolute">
+                    <h5>The Politician</h5>
+                    <h5 class="rating">Rating: 7.6</h5>  
+                </div>
+            </div>            
+            <div class="relative">
+                <a href="page2.html#">
+                    <img  class="image-wrapper" src="./img/living-with-yourself.jpg" alt="Living with Yourself">
+                </a>
+                <div class="absolute">  
+                    <h5>Living with Yourself</h5>
+                    <h5 class="rating">Rating: 7.8</h5>
+                </div>
+            </div> 
+            <div class="relative">
+                <a href="page2.html#the-boys">
+                    <img  class="image-wrapper" src="./img/the-boys.jpg" alt="The Boys">
+                </a>
+                <div class="absolute">
+                    <h5>The Boys</h5>
+                    <h5 class="rating">Rating: 8.8</h5>
+                </div>
+            </div>      
+            <div class="relative">
+                <a href="page2.html#">
+                    <img  class="image-wrapper" src="./img/LetterKenny.jpg" alt="Letterkenny">
+                </a>
+                <div class="absolute">  
+                    <h5>Letterkenny</h5>
+                    <h5 class="rating">Rating: 8.7</h5>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <h3 id="crime" class="horizontalLine">Crime</h3>
+        <div class="owl-carousel">
+            <div class="relative">
+                <a href="page2.html#">
+                    <img class="image-wrapper" src="./img/peaky_blinders.jpg" alt="Peaky Blinders">
+                </a>
+                <div class="absolute">
+                    <h5>Peaky Blinders</h5>
+                    <h5 class="rating">Rating: 8.9</h5>
+                </div>
+            </div>                  
+            <div class="relative">
+                <a href="page2.html#">
+                    <img  class="image-wrapper" src="./img/breaking-bad.jpg" alt="Breaking Bad">
+                </a>
+                <div class="absolute">
+                    <h5>Breaking Bad</h5>
+                    <h5 class="rating">Rating: 9.5</h5>    
+                </div>
+            </div>
+            <div class="relative">
+                <a href="page2.html#">
+                    <img  class="image-wrapper" src="./img/arrow.jpg" alt="Arrow">
+                </a>
+                <div class="absolute">  
+                    <h5>Arrow</h5>
+                    <h5 class="rating">Rating: 7.6</h5>
+                </div>
+            </div>   
+            <div class="relative">
+                <img  class="image-wrapper" src="./img/Unbelievabl.jpg" alt="Unbelievable">                                
+                <div class="absolute">
+                    <h5>Unbelievable</h5>
+                    <h5 class="rating">Rating: 8.6</h5>
+                </div>
+            </div>
+            <div class="relative">
+                <img  class="image-wrapper" src="./img/mr-robot.jpg" alt="Mr. Robot">
+                <div class="absolute">
+                    <h5>Mr. Robot</h5>
+                    <h5 class="rating">Rating: 8.5</h5>  
+                </div>
+            </div>            
+            <div class="relative">
+                <a href="page2.html#">
+                    <img  class="image-wrapper" src="./img/power.jpg" alt="Power">
+                </a>
+                <div class="absolute">  
+                    <h5>Power</h5>
+                    <h5 class="rating">Rating: 8.2</h5>
+                </div>
+            </div> 
+            <div class="relative">
+                <a href="page2.html#the-boys">
+                    <img  class="image-wrapper" src="./img/the-boys.jpg" alt="The Boys">
+                </a>
+                <div class="absolute">
+                    <h5>The Boys</h5>
+                    <h5 class="rating">Rating: 8.8</h5>
+                </div>
+            </div>      
+            <div class="relative">
+                <a href="page2.html#">
+                    <img  class="image-wrapper" src="./img/titans.webp" alt="Titans">
+                </a>
+                <div class="absolute">  
+                    <h5>Titans</h5>
+                    <h5 class="rating">Rating: 7.9</h5>
+                </div>
+            </div>  
+        </div>
+    </section>
+    <section>
+        <h3 id="documentaries" class="horizontalLine">Documentaries</h3>
+        <div class="owl-carousel">
+            <div class="relative">
+                <a href="page2.html#">
+                    <img class="image-wrapper" src="./img/explaind.jpeg" alt="Explained">
+                </a>
+                <div class="absolute">
+                    <h5>Explained</h5>
+                    <h5 class="rating">Rating: 7.9</h5>
+                </div>
+            </div>                  
+            <div class="relative">
+                <a href="page2.html#">
+                    <img  class="image-wrapper" src="./img/cosmos.jpeg" alt="Cosmos">
+                </a>
+                <div class="absolute">
+                    <h5>Cosmos</h5>
+                    <h5 class="rating">Rating: 9.3</h5>
+                </div>
+            </div>
+            <div class="relative">
+                <a href="page2.html#s">
+                    <img  class="image-wrapper" src="./img/rotten.jpg" alt="Rotten">
+                </a>
+                <div class="absolute">
+                    <h5>Rotten</h5>
+                    <h5 class="rating">Rating: 7.0</h5>    
+                </div>
+            </div>
+            <div class="relative">
+                <a href="page2.html#">
+                    <img  class="image-wrapper" src="./img/The-Last-Czars.jpg" alt="The Last Czars">
+                </a>
+                <div class="absolute">  
+                    <h5>The Last Czarst</h5>
+                    <h5 class="rating">Rating: 7.2</h5>
+                </div>
+            </div>
+            <div class="relative">
+                <a href="page2.html#">
+                    <img  class="image-wrapper" src="./img/Ancient-Aliens .jpg" alt="Ancient Aliens">
+                </a>
+                <div class="absolute">  
+                    <h5>Ancient Aliens </h5>
+                    <h5 class="rating">Rating: 7.3</h5>
+                </div>
+            </div>
+            <div class="relative">
+                <a href="page2.html#">
+                    <img  class="image-wrapper" src="./img/Making-a-Murderer.jpeg" alt="Making a Murderer">
+                </a>
+                <div class="absolute">  
+                    <h5>Making a Murderer</h5>
+                    <h5 class="rating">Rating: 8.6</h5>
+                </div>
+            </div>                 
+            <div class="relative">
+                <a href="page2.html#">
+                    <img  class="image-wrapper" src="./img/Witches-of-Salem.jpg" alt="Witches of Salem">
+                </a>
+                <div class="absolute">  
+                    <h5>Witches of Salem</h5>
+                    <h5 class="rating">Rating: 7.2</h5>
+                </div>
+            </div>       
+            <div class="relative">
+                <a href="page2.html#">
+                    <img  class="image-wrapper" src="./img/Unnatural-Selection.jpg" alt="Unnatural Selection">
+                </a>
+                <div class="absolute">  
+                    <h5>Unnatural Selection</h5>
+                    <h5 class="rating">Rating: 8.4</h5>
                 </div>
             </div>
         </div>
     </section>
     <section>
         <h3 id="horror" class="horizontalLine">Horror TV</h3>
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-lg-3 col-md-6">
-                    <div class="relative">
-                        <a href="page2.html#black-mirror">
-                            <img class="image-wrapper" src="./img/black-mirror.jpg" alt="Black Mirror">
-                        </a>
-                        <div class="absolute">
-                            <h5>Black Mirror</h5>
-                            <h5 class="rating">Rating: 8.8</h5>
-                        </div>
-                    </div>                  
+        <div class="owl-carousel">
+            <div class="relative">
+                <a href="page2.html#black-mirror">
+                    <img class="image-wrapper" src="./img/black-mirror.jpg" alt="Black Mirror">
+                </a>
+                <div class="absolute">
+                    <h5>Black Mirror</h5>
+                    <h5 class="rating">Rating: 8.8</h5>
                 </div>
-                <div class="col-lg-3 col-md-6">
-                    <div class="relative">
-                        <img  class="image-wrapper" src="./img/tvn-14012019163149.jpg" alt="Bates Motel">
-                        <div class="absolute">
-                            <h5>Bates Motel</h5>
-                            <h5 class="rating">Rating: 8.2</h5>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6">
-                    <div class="relative">
-                        <img  class="image-wrapper" src="./img/7T2BU8EM63gewJUNXfGlOiPetH1.jpg" alt="Castle Rock">
-                        <div class="absolute">
-                            <h5>Castle Rock</h5>
-                            <h5 class="rating">Rating: 7.7</h5>    
-                        </div>
-                    </div>                   
-                </div>
-                <div class="col-lg-3 col-md-6">
-                    <div class="relative">
-                        <img  class="image-wrapper" src="./img/maxresdefault.jpg" alt="Channel Zero">
-                        <div class="absolute">  
-                            <h5>Channel Zero</h5>
-                            <h5 class="rating">Rating: 7.2</h5>
-                        </div>
-                    </div>
+            </div>                  
+            <div class="relative">
+                <a href="page2.html#bates-motel">
+                    <img  class="image-wrapper" src="./img/bates-motel.jpg" alt="Bates Motel">
+                </a>
+                <div class="absolute">
+                    <h5>Bates Motel</h5>
+                    <h5 class="rating">Rating: 8.2</h5>
                 </div>
             </div>
-            <div class="row">
-                <div class="col-lg-3 col-md-6">
-                    <div class="relative">
-                        <img  class="image-wrapper" src="./img/AAAABSJBCX9UxJkkZH_NLhm0nynLxHTqy99ETHJuidWOohECj4qKD3kqC8kr4gk2anceRXPMLULS3hruYHK56hpZCSsWD1GqNO4GaWrot7bwzPHJqxfT.jpg" alt="Dark">
-                        <div class="absolute">  
-                            <h5>Dark</h5>
-                            <h5 class="rating">Rating: 8.7</h5>
-                        </div>
-                    </div>
+            <div class="relative">
+                <a href="page2.html#castle-rock">
+                    <img  class="image-wrapper" src="./img/Castle-Rock.jpg" alt="Castle Rock">
+                </a>
+                <div class="absolute">
+                    <h5>Castle Rock</h5>
+                    <h5 class="rating">Rating: 7.7</h5>    
                 </div>
-                <div class="col-lg-3 col-md-6">
-                    <div class="relative">
-                        <img  class="image-wrapper" src="./img/MV5BYWVmMDA0YjUtY2U0Ni00ZTQwLTk0YmUtZGQwYmYzMmI3OWJlXkEyXkFqcGdeQXVyNzU1NzE3NTg@._V1_CR0,45,480,270_AL_UX477_CR0,0,477,268_AL_.jpg" alt="The Exorcist">
-                        <div class="absolute">  
-                            <h5>The Exorcist</h5>
-                            <h5 class="rating">Rating: 8</h5>
-                        </div>
-                    </div>                 
+            </div>
+            <div class="relative">
+                <a href="page2.html#channel-zero">
+                    <img  class="image-wrapper" src="./img/channel-zero.jpg" alt="Channel Zero">
+                </a>
+                <div class="absolute">  
+                    <h5>Channel Zero</h5>
+                    <h5 class="rating">Rating: 7.2</h5>
                 </div>
-                <div class="col-lg-3 col-md-6">
-                    <div class="relative">
-                        <img  class="image-wrapper" src="./img/dlnow_dp_hannibals03_060215.jpg" alt="Hannibal">
-                        <div class="absolute">  
-                            <h5>Hannibal</h5>
-                            <h5 class="rating">Rating: 8.5</h5>
-                        </div>
-                    </div>       
+            </div>
+            <div class="relative">
+                <a href="page2.html#dark">
+                    <img  class="image-wrapper" src="./img/dark.jpg" alt="Dark">
+                </a>
+                <div class="absolute">  
+                    <h5>Dark</h5>
+                    <h5 class="rating">Rating: 8.7</h5>
                 </div>
-                <div class="col-lg-3 col-md-6">
-                    <div class="relative">
-                        <img  class="image-wrapper" src="./img/c4d12f4b-04b2-4950-9ae1-4e205a84339e-pennydreadful_309_1596r.jpg" alt="Penny Dreadful">
-                        <div class="absolute">  
-                            <h5>Penny Dreadful</h5>
-                            <h5 class="rating">Rating: 8.2</h5>
-                        </div>
-                   </div>
+            </div>
+            <div class="relative">
+                <a href="page2.html#the-exorcist">
+                    <img  class="image-wrapper" src="./img/exorcist.jpg" alt="The Exorcist">
+                </a>
+                <div class="absolute">  
+                    <h5>The Exorcist</h5>
+                    <h5 class="rating">Rating: 8.1</h5>
+                </div>
+            </div>                 
+            <div class="relative">
+                <a href="page2.html#hanniba">
+                    <img  class="image-wrapper" src="./img/hannibal.jpg" alt="Hannibal">
+                </a>
+                <div class="absolute">  
+                    <h5>Hannibal</h5>
+                    <h5 class="rating">Rating: 8.5</h5>
+                </div>
+            </div>       
+            <div class="relative">
+                <a href="page2.html#penny-dreadful">
+                    <img  class="image-wrapper" src="./img/penny-dreadful.jpg" alt="Penny Dreadful">
+                </a>
+                <div class="absolute">  
+                    <h5>Penny Dreadful</h5>
+                    <h5 class="rating">Rating: 8.2</h5>
                 </div>
             </div>
         </div>
     </section>
-
+    <section>
+        <h3 id="fantasy" class="horizontalLine">Sci-Fi & Fantasy</h3>
+        <div class="owl-carousel">
+            <div class="relative">
+                <a href="page2.html#dark">
+                    <img  class="image-wrapper" src="./img/dark.jpg" alt="Dark">
+                </a>
+                <div class="absolute">  
+                    <h5>Dark</h5>
+                    <h5 class="rating">Rating: 8.7</h5>
+                </div>
+            </div>             
+            <div class="relative">
+                <a href="page2.html#">
+                    <img  class="image-wrapper" src="./img/The-Walking-Dead.jpg" alt="The Walking Dead">
+                </a>
+                <div class="absolute">
+                    <h5>The Walking Dead</h5>
+                    <h5 class="rating">Rating: 8.3</h5>
+                </div>
+            </div>
+            <div class="relative">
+                <a href="page2.html#s">
+                    <img  class="image-wrapper" src="./img/jessica-jones.jpg" alt="Jessica Jones">
+                </a>
+                <div class="absolute">
+                    <h5>Jessica Jones</h5>
+                    <h5 class="rating">Rating: 8.0</h5>    
+                </div>
+            </div>
+            <div class="relative">
+                <a href="page2.html#">
+                    <img  class="image-wrapper" src="./img/Love-Death-Robots.jpeg" alt="Love, Death & Robots">
+                </a>
+                <div class="absolute">  
+                    <h5>Love, Death & Robots</h5>
+                    <h5 class="rating">Rating: 8.6</h5>
+                </div>
+            </div>
+            <div class="relative">
+                <a href="page2.html#">
+                    <img  class="image-wrapper" src="./img/Stranger-Things.jpg" alt="Stranger Things">
+                </a>
+                <div class="absolute">  
+                    <h5>Stranger Things</h5>
+                    <h5 class="rating">Rating: 8.8</h5>
+                </div>
+            </div>
+            <div class="relative">
+                <a href="page2.html#black-mirror">
+                    <img class="image-wrapper" src="./img/black-mirror.jpg" alt="Black Mirror">
+                </a>
+                <div class="absolute">
+                    <h5>Black Mirror</h5>
+                    <h5 class="rating">Rating: 8.8</h5>
+                </div>
+            </div>              
+            <div class="relative">
+                <a href="page2.html#">
+                    <img  class="image-wrapper" src="./img/The-Handmaid's-Tale.jpg" alt="The Handmaid's Tale">
+                </a>
+                <div class="absolute">  
+                    <h5>The Handmaid's Tale</h5>
+                    <h5 class="rating">Rating: 8.5</h5>
+                </div>
+            </div>       
+            <div class="relative">
+                <a href="page2.html#game-of-thrones">
+                    <img  class="image-wrapper" src="./img/Game-of-Thrones.jpg" alt="Game of Thrones">
+                </a>
+                <div class="absolute">
+                    <h5>Game of Thrones</h5>
+                    <h5 class="rating">Rating: 9.4</h5>
+                </div>
+            </div>
+        </div>
+    </section>
     <footer>
         <div class="cardd-flex justify-content-between align-items-center">
             <div class="card-body">
@@ -241,6 +594,26 @@
         </div>
     </footer>
 
+    <script src="./owl/OwlCarousel2-2.3.4/docs/assets/vendors/jquery.min.js"></script>
+    <script src="./owl/OwlCarousel2-2.3.4/dist/owl.carousel.js"></script>
+    <script type="text/javascript">
+        $('.owl-carousel').owlCarousel({
+            loop:true,
+            margin:10,
+            nav:true,
+            responsive:{
+                0:{
+                    items:1
+                },
+                600:{
+                    items:3
+                },
+                1000:{
+                    items:5
+                }
+            }
+        })
+        </script>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
