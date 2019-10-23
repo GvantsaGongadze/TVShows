@@ -1,7 +1,7 @@
 header {
     background-color: black;
     width: 100%;
-    height: 80px;
+    height: 70px;
 }
 .dropdown-menu {
     background: black;
@@ -59,10 +59,10 @@ ul {
     text-shadow: 3px 3px 6px whitesmoke;
 }
 body {
-    background-color: rgb(255, 192, 203);
+    background-color: pink;
     overflow-x: hidden;
+    position: relative; 
 }
-
 a {
     color: white;
 }
@@ -80,7 +80,7 @@ h1 {
     text-shadow: 4px 4px 15px pink;
 }
 .videoSize {
-    z-index: -100;
+    z-index: -10;
     top: 0;
     left: 0;
     width: 100%;
@@ -117,7 +117,7 @@ h3{
 }
 h5 {
     font-family: 'Libre Baskerville', serif;
-    font-size: 21px;
+    
     color: aliceblue;
 }
 h5:hover {
@@ -143,6 +143,10 @@ div.absolute {
     left: 10%;
     transform: translate(-5%, -15%);
     text-shadow: 3px 3px 6px black;
+    font-size: 2%;
+}
+.active:hover {
+    z-index: 15;
 }
 img {
     object-fit: cover;
@@ -169,70 +173,17 @@ button {
 .owl-carousel .owl-stage-outer {
     overflow: visible;
 }
-.animation {
-    position: absolute;
-    left: 90%;
-    top: 10%;
-    animation: flower 3s infinite alternate; 
-}
-.flower {
-    width: 60px;
-    height: 60px;
-    text-align: right;
-    border: none;
-}
-@keyframes flower {
-    0% {
-        transform: rotate(0deg);
-    }
-    10% {
-        transform: rotate(36deg);
-        left: 85%;
-    }
-    20% {
-        transform: rotate(72deg);
-        left: 80%;
-    }
-    30% {
-        transform: rotate(108deg);
-        left: 75%;
-    }
-    40% {
-        transform: rotate(144deg);
-        left: 70%;
-    }
-    50% {
-        transform: rotate(180deg);
-        left: 65%;
-    }
-    60% {
-        transform: rotate(216deg);
-        left: 60%;
-    }
-    70% {
-        transform: rotate(252deg);
-        left: 55%;
-    }
-    80% {
-        transform: rotate(288deg);
-        left: 50%;
-    }
-    90% {
-        transform: rotate(324deg);
-        left: 45%;
-    }
-    100% {
-        transform: rotate(360deg);
-        left: 40%;
+
+@media screen and (max-width: 600px) {
+    h5 {
+        font-size: 40px;
     }
 }
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 350px) {
     h1 {
         font-size: 35px;
     }
-}
-@media screen and (max-width: 600px) {
-    h1 {
-        font-size: 20px;
+    h5 {
+        font-size: 30px;
     }
 }
