@@ -70,6 +70,7 @@ a:hover, h1:hover {
     color: rgb(255, 192, 203);
     transition: all 0.3s 0.3s ease;
     transform: scale(1.2);
+    text-decoration: none;
 }
 h1 {
     color: whitesmoke;
@@ -101,12 +102,6 @@ h1 {
     top:0;
     left:0;
     z-index:10;
-}
-.image-wrapper{
-    width: 100%;   
-}
-.row {
-    margin-top: 60px;
 }
 h3{
     font-family: 'Libre Baskerville', serif;
